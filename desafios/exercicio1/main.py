@@ -1,7 +1,6 @@
 import boto3
 from moto import mock_sqs
-
-import exercicio_1.event_validator as event_validator
+import event_validator as event_validator
 
 @mock_sqs
 def main(event):
